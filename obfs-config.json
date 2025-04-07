@@ -1,5 +1,4 @@
 {
-  "compact": true,
   "controlFlowFlattening": true,
   "controlFlowFlatteningThreshold": 1,
   "deadCodeInjection": true,
@@ -10,11 +9,5 @@
   "renameGlobals": true,
   "unicodeEscapeSequence": true,
   "target": "node"
-
-
-  "identifierNamesGenerator": ["hexadecimal"],
-  "stringArray": true,
-  "stringArrayThreshold": 1
-
 
 }
