@@ -11,6 +11,5 @@
   "transformObjectKeys": true,
   "renameGlobals": true,
   "unicodeEscapeSequence": true,
-  "identifierNamesGenerator": ["hexadecimal"],
   "target": "node"
 }
