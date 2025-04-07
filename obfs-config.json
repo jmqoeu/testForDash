@@ -5,10 +5,12 @@
   "deadCodeInjection": true,
   "deadCodeInjectionThreshold": 1,
   "numbersToExpressions": true,
+  "stringArray": true,
   "stringArrayEncoding": ["base64"],
   "stringArrayThreshold": 1,
   "transformObjectKeys": true,
   "renameGlobals": true,
   "unicodeEscapeSequence": true,
+  "identifierNamesGenerator": ["hexadecimal"],
   "target": "node"
 }
