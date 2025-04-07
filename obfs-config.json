@@ -7,11 +7,8 @@
   "numbersToExpressions": true,
   "stringArrayEncoding": ["base64"],
   "stringArrayThreshold": 1,
-
   "transformObjectKeys": true,
   "renameGlobals": true,
   "unicodeEscapeSequence": true,
   "target": "node"
-
-
 }
