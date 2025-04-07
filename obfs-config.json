@@ -1,10 +1,20 @@
 {
+  "compact": true,
+  "controlFlowFlattening": true,
+  "controlFlowFlatteningThreshold": 1,
   "deadCodeInjection": true,
-  "deadCodeInjectionThreshold": 0.4,
+  "deadCodeInjectionThreshold": 1,
   "numbersToExpressions": true,
   "stringArrayEncoding": ["base64"],
   "transformObjectKeys": true,
   "renameGlobals": true,
   "unicodeEscapeSequence": true,
   "target": "node"
+
+
+  "identifierNamesGenerator": ["hexadecimal"],
+  "stringArray": true,
+  "stringArrayThreshold": 1
+
+
 }
